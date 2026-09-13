@@ -30,6 +30,19 @@ public class ExpensiveDroneBuilder implements DroneBuilder {
 
     @Override
     public Drone build() {
+        if (modelName == null) {
+            throw new IllegalStateException("No model name");
+        }
+        if (flightTime <= 0) {
+            throw new IllegalStateException("Flight time > 0");
+        }
+        if (weight <= 0) {
+            throw new IllegalStateException("Weight > 0");
+        }
+        if (maxSpeed <= 0) {
+            throw new IllegalStateException("Speed > 0");
+        }
+
         return new Drone(modelName, flightTime, weight, maxSpeed);
     }
 }
