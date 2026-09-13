@@ -30,3 +30,25 @@ public class Main {
         System.out.println("Cheap Drone: " + cheap);
     }
 }
+```
+
+## UML Diagram
+
+
+![UML Diagram](https://www.plantuml.com/plantuml/png/bP3FIWCn4CRlUOevhiZs0Of8yO-tzLB1SzfyRGUIsIN9Qa5zTvkaBOHr3vuIllncVZDPXQXz79rLMwj3e2VV2-XB4RNaUWFxgXreIUleMVOvtbdU7-8Rvvmbvl0JAJm5fXyt5gLU7zS3OCxOZrAd0twdjoYUXv6jWS-wMzB6T1TZKtmtjAp82_To7Q5XYNFKEnBLb8dceEuyv6oZJRetrwUqHlcgv-C02Vo1QXTsWuM3n52tAZMF1-ZX7todMPIg2kw-5uk_tLDkwbEf8xNjVMrRGSpex2y0)
+
+www.plantuml.com/plantuml/png/bP3FIWCn4CRlUOevhiZs0Of8yO-tzLB1SzfyRGUIsIN9Qa5zTvkaBOHr3vuIllncVZDPXQXz79rLMwj3e2VV2-XB4RNaUWFxgXreIUleMVOvtbdU7-8Rvvmbvl0JAJm5fXyt5gLU7zS3OCxOZrAd0twdjoYUXv6jWS-wMzB6T1TZKtmtjAp82_To7Q5XYNFKEnBLb8dceEuyv6oZJRetrwUqHlcgv-C02Vo1QXTsWuM3n52tAZMF1-ZX7todMPIg2kw-5uk_tLDkwbEf8xNjVMrRGSpex2y0
+
+
+
+## Structure
+```
+src/
+  Main.java                  - client demo
+  Drone.java                 - product
+  DroneBuilder.java          - builder interface
+  ExpensiveDroneBuilder.java - concrete builder 1
+  CheapDroneBuilder.java     - concrete builder 2
+```
+
+## ~Alimbayev Alisher
